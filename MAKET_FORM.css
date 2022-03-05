@@ -1,0 +1,75 @@
+form {
+    padding: 16px;
+    max-width: 550px;
+    background-color: rgba(248, 248, 176, 0.425);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    border: rgb(0, 119, 255) double 4px;
+}
+div {
+    padding-bottom: 7px;
+}
+label {
+    width: 35%;
+    display: inline-block; 
+    font-size: 13px;
+}
+textarea {
+    max-width: 551px;
+    padding: 4px;
+    resize: vertical;
+}
+button {
+    border-radius: 10px;
+    padding: 10px;
+}
+button:hover {
+    background: rgb(0, 119, 255);
+    color: aliceblue;
+    transition: background .2s linear, color .2s linear;
+}
+.text {
+    width: 354px;
+    padding: 4px;
+}
+.program {
+    width: 200px;
+    padding: 4px;
+}
+.radio-text {
+    display: inline;
+}
+textarea,
+.text,
+.program {
+    margin-top: 5px;
+    border-radius: 6px;
+    border: 0;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.158);
+}
+.checkbox,
+.radio-button {
+    vertical-align: middle;
+    margin: -2px 3 0 0;
+}
+@media all and (max-width: 606px) {
+    textarea {
+        max-width: 100%;
+    }
+    label,
+    .text,
+    .program {
+        width: 100%;
+    }
+   .commentary-allow {
+        width: 100%;
+        display: inline;
+   }
+}
+@media all and (max-width: 395px) {
+   .radio-text {
+       display: block;  
+   }
+}  
+
+

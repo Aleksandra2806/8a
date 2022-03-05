@@ -1,0 +1,43 @@
+<!DOCKTYPE html>  
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MAKET_FORM</title>
+    <link href="MAKET_FORM.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <form method="post" action="https://fe.it-academy.by/TestForm.php" target="_blank">
+      <div>
+        <p>Для публикации вашей статьи заполните, пожалуйста, следующую форму:</p>
+        <label for="name-article">Название статьи:</label>
+        <input class="text" id="name-article" type="text" name="article">
+      </div> 
+      <div> 
+        <label>Рубрика:</label>
+        <select class="program" name="it">
+          <option value="program" selected>программирование</option> 
+        </select>
+      </div> 
+      <div>
+        <label>Публикация:</label>
+        <label class="radio-text"><input class="radio-button" type="radio" name="radio-button" value="1">на сайте</label>
+        <label class="radio-text"><input class="radio-button" type="radio" name="radio-button" value="2">в журнале</label>
+        <label class="radio-text"><input class="radio-button" type="radio" name="radio-button" value="3">на сайте и в журнале</label>
+      </div>
+      <div>
+        <label class="commentary-allow">Разрешить комментарии:</label>
+        <input class="checkbox" type="checkbox" name="commentary" checked> 
+      </div>
+      <div>
+        <label>Текст статьи:</label>
+        <textarea name="mytext" cols="73" rows="4"></textarea> 
+      </div>
+      <div>
+        <button>Опубликовать</button>
+      </div>
+    </form>
+  </body>
+</html>
+
