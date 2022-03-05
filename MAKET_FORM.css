@@ -50,7 +50,7 @@ textarea,
 .checkbox,
 .radio-button {
     vertical-align: middle;
-    margin: -2px 3 0 0;
+    margin: 0 3 0 0;
 }
 @media all and (max-width: 606px) {
     textarea {
